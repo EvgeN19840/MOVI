@@ -10,7 +10,7 @@ const root = ReactDOM.createRoot(
   document.getElementById("root") as HTMLElement
 );
 root.render(
-  <BrowserRouter basename="https://EvgeN19840.github.io/MOVI" >
+  <BrowserRouter basename="/MOVI" >
     <React.StrictMode>
       <Provider store={store}>
         <App />
