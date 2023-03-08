@@ -1,25 +1,23 @@
 .cont {
-  display: flex;
   width: 1230px;
-  height: 352px;
+  min-height: 352px;
   background: #ffffff;
   border-radius: 20px;
-
   margin-top: 90px;
   padding-top: 40px;
   padding-left: 89px;
   margin-bottom: 600px;
+  display: flex;
 }
 .foto {
   width: 409px;
   height: 272px;
   border-radius: 0px;
 }
-.text-about-me{
+.text-about-me {
   display: block;
   margin-left: 48px;
   margin-right: 90px;
-
 }
 .logo-about-me {
   font-family: "Open Sans";
