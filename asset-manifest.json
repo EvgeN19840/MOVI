@@ -1,0 +1,15 @@
+{
+  "files": {
+    "main.css": "/MOVI/static/css/main.114e724e.css",
+    "main.js": "/MOVI/static/js/main.9bf986b6.js",
+    "static/media/background.png": "/MOVI/static/media/background.dde5d61365280fec4663.png",
+    "static/media/women.png": "/MOVI/static/media/women.6d3a97e7d974d52c778a.png",
+    "index.html": "/MOVI/index.html",
+    "main.114e724e.css.map": "/MOVI/static/css/main.114e724e.css.map",
+    "main.9bf986b6.js.map": "/MOVI/static/js/main.9bf986b6.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.114e724e.css",
+    "static/js/main.9bf986b6.js"
+  ]
+}
