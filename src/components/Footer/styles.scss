@@ -1,8 +1,5 @@
 .footer {
   background-color: #3a3a3a;
-  min-height: 130px;
-  margin-top: 90px;
-  flex: 0 0 auto;
   .container {
     color: white;
     padding-top: 40px;
@@ -15,12 +12,9 @@
     flex-wrap: wrap;
     align-items: center;
     justify-content: space-between;
-    flex: 1 0 auto;
   }
 }
-.imgW {
-  color: #e59c9c;
-}
+
 .about-made {
   text-align: right;
 }

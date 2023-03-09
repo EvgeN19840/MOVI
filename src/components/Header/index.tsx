@@ -15,7 +15,7 @@ const Header = () => {
     <header>
       <div className="navbar">
         <div className="container">
-        <div className="logo-heder">
+        <div className="logo-header">
         <div className="logo-circle"/>
         <div className="logo-text">MOVIESinfo</div>
          </div>

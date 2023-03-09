@@ -10,17 +10,26 @@ interface InewsItemParams {
 
 const NewsItem: React.FC<InewsItemParams> = ({ item }) => (
   <NavLink className="wrap-setitem" to={routeDeteilPage(item.show.id)}>
-    <div className="about-movis-wrap">
-      <img
-        className="poster-movis"
-        src={item.show.image.medium}
-        alt={"poster"}
-      />
+    <div className="about-movis-wrap ">
+      <figure>
+        {" "}
+        <div className="hover-div">
+          <img
+            className="poster-movis "
+            src={item.show.image.medium}
+            alt={"poster"}
+          />
+        </div>
+      </figure>
     </div>
     <div className="about-movis-text">
-    <div className="name-movis">{item.show.name}</div>
-    <div className="filmold">{item.show.premiered} </div>
-    <div className="genres-movis">{item.show.genres}</div>
+      <div className="movies-name-old">
+        <div className="name-movis">{item.show.name}</div>
+        <div className="filmold">
+          <p>({item.show.premiered})</p>{" "}
+        </div>
+      </div>
+      <div className="genres-movis">{item.show.genres}</div>
     </div>
   </NavLink>
 );

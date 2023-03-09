@@ -1,8 +1,8 @@
 
 .main-text {
-  text-align: center !important;
-  padding-top: 5px !important;
-  padding-bottom: 5px !important;
+  text-align: center;
+  padding-top: 5px ;
+  padding-bottom: 5px;
 }
 
 .main-logo {
@@ -26,12 +26,6 @@
   min-height:  862px;
   background: #ffffff;
   border-radius: 20px;
-  .newslist {
-    display: grid;
-    border-radius: 20px;
-    padding-right: 90px;
-    margin-bottom: 30px;
-  }
-  
+
 }
 
